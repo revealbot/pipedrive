@@ -16,7 +16,7 @@ module Pipedrive
 
     include HTTParty
     
-    base_uri 'revealbot-a1866d.pipedrive.com/v1'
+    base_uri 'https://revealbot-a1866d.pipedrive.com/v1'
     headers HEADERS
     format :json
 
