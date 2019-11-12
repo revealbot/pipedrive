@@ -23,8 +23,8 @@ module Pipedrive
       File.all(get "#{resource_path}/#{id}/files")
     end
 
-    def notes(opts = {:sort_by => 'add_time', :sort_mode => 'desc'})
-      Note.all( get("/notes", :query => opts.merge(:deal_id => id) ) )
+    def notes(opts = { sort_by: 'add_time', sort_mode: 'desc'})
+      Note.all( get("/notes", query: opts.merge(deal_id: id) ) )
     end
     
   end
