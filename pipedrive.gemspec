@@ -4,7 +4,7 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = "pipedrive-ruby"
+  s.name = "pipedrive"
   s.version = "0.3.3"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
@@ -22,7 +22,7 @@ Gem::Specification.new do |s|
     "README.md",
     "Rakefile",
     "VERSION",
-    "lib/pipedrive-ruby.rb",
+    "lib/pipedrive.rb",
     "lib/pipedrive/activity-type.rb",
     "lib/pipedrive/activity.rb",
     "lib/pipedrive/authorization.rb",
@@ -49,7 +49,7 @@ Gem::Specification.new do |s|
     "lib/pipedrive/user-connection.rb",
     "lib/pipedrive/user-setting.rb",
     "lib/pipedrive/user.rb",
-    "pipedrive-ruby.gemspec",
+    "pipedrive.gemspec",
     "test/data/create_deal_body.json",
     "test/data/create_note_body.json",
     "test/data/create_organization_body.json",
@@ -61,7 +61,7 @@ Gem::Specification.new do |s|
     "test/test_pipedrive_organization.rb",
     "test/test_pipedrive_person.rb"
   ]
-  s.homepage = "https://github.com/GeneralScripting/pipedrive-ruby.git"
+  s.homepage = "https://github.com/revealbot/pipedrive.git"
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
   s.rubygems_version = "1.8.25"
