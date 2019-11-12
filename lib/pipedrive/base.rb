@@ -8,7 +8,7 @@ module Pipedrive
   HEADERS = {
     "User-Agent"    => "Ruby.Pipedrive.Api",
     "Accept"        => "application/json",
-    "Content-Type"  => "application/x-www-form-urlencoded"
+    "Content-Type"  => "application/json"
   }
 
   # Base class for setting HTTParty configurations globally
