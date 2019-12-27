@@ -98,8 +98,8 @@ module Pipedrive
         end
       end
 
-      def create(opts = {})
-        res = post resource_path, body: opts
+      def create(base_path = nil, opts = {})
+        res = post "#{base_path}#{resource_path}", body: opts
         if res.success?
           res['data'] = opts.merge res['data']
           new(res)
